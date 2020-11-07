@@ -2,11 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BulletController
-    - Demo.MenuScript
     - EnemyBulletController
     - EnemyController
     - ExitButton
     - GameOverScript
+    - MenuScript
     - PlayerControl
     - PlayerController
     Unity.2D.Animation.Editor.dll:
@@ -98,16 +98,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11830}
-    - Class: 114
-      Script: {instanceID: 12068}
     - Class: 114
       Script: {instanceID: 12148}
     - Class: 114
@@ -115,11 +109,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12916}
     - Class: 114
+      Script: {instanceID: 13048}
+    - Class: 114
       Script: {instanceID: 13694}
     - Class: 114
       Script: {instanceID: 14516}
     - Class: 114
       Script: {instanceID: 15150}
+    - Class: 114
+      Script: {instanceID: 24096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -777,4 +775,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GameStart.unity
   - Assets/Scenes/Quarantine_Prototype_Shiva.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/User/Desktop/New folder (2)/Quarantine2D.exe
+  playerPath: C:/Users/User/Desktop/demo1/Quarantine2D.exe
