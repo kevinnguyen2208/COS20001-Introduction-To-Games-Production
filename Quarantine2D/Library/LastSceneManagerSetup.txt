@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Quarantine_Prototype_Shiva.unity
+- path: Assets/Scenes/menu scene_georgia.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
