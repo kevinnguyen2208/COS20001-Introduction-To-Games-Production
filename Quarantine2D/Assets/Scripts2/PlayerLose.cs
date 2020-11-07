@@ -11,7 +11,7 @@ public class PlayerLose : MonoBehaviour{
 	
 	void Update(){
 		if(player.childCount == 0){
-			GameOver.isPlayerDead = True;
+			GameOver.isPlayerDead = true;
 		}
 	}
 }

@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class RestartLevel : MonoBehaviour{
 	void Update(){
 		if(Input.GetKeyDown(KeyCode.Space)){
-			PlayerScore.playerscore = 0;
+			PlayerScore.playerScore = 0;
 			GameOver.isPlayerDead = false;
-			Time.timescale = 1;
+			Time.timeScale = 1;
 			
-			SceneManager.LoadScene("....");//put the name of the start scene here
+			SceneManager.LoadScene("GameStart");//put the name of the start scene here
 		}
 	}
 }

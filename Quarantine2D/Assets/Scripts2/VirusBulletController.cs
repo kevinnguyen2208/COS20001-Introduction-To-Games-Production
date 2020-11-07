@@ -7,7 +7,7 @@ public class VirusBulletController : MonoBehaviour{
 	public float speed;
 	
 	void Start(){
-		bullet = GetComponenet<Transform> ();
+		bullet = GetComponent<Transform> ();
 	}
 	
 	void FixedUpdate(){
