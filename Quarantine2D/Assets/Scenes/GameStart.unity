@@ -159,7 +159,7 @@ MonoBehaviour:
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_ForceModuleActive: 1
 --- !u!114 &169523461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,8 +377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 407.2, y: -99.9}
-  m_SizeDelta: {x: 1186.7958, y: 995.67664}
+  m_AnchoredPosition: {x: 417.1, y: -48.1}
+  m_SizeDelta: {x: 678.417, y: 831.75085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564132481
 MonoBehaviour:
@@ -817,8 +817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -175.3, y: -99.855}
-  m_SizeDelta: {x: 1080.6031, y: 786.99176}
+  m_AnchoredPosition: {x: -331.77, y: -118}
+  m_SizeDelta: {x: 515.5436, y: 786.99176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081391319
 MonoBehaviour:
@@ -1208,8 +1208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65.75, y: 24}
-  m_SizeDelta: {x: 675.5, y: 407.60468}
+  m_AnchoredPosition: {x: 64.8, y: 61.402}
+  m_SizeDelta: {x: 677.4962, y: 328.8042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084907655
 MonoBehaviour:
@@ -1261,6 +1261,7 @@ GameObject:
   - component: {fileID: 2085961948}
   - component: {fileID: 2085961947}
   - component: {fileID: 2085961946}
+  - component: {fileID: 2085961950}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1356,3 +1357,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2085961950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085961945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd02bf75d4f292141b90086a1dd887e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
