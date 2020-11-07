@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\ExitButton.cs" />
     <Compile Include="Assets\Scripts2\PlayerLose.cs" />
     <Compile Include="Assets\Scripts\PlayerScore.cs" />
+    <Compile Include="Assets\Scripts2\OnCollisionDie.cs" />
     <Compile Include="Assets\Scripts2\PlayerBulletController - Normal.cs" />
   </ItemGroup>
   <ItemGroup>

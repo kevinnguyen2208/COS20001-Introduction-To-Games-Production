@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
@@ -40,7 +41,8 @@ public class EnemyController : MonoBehaviour
             if(enemy.position.y <= -4)
             {
                 //GameOver.isPlayerDead = true; 
-                Time.timeScale = 0; 
+                Time.timeScale = 0;
+                SceneManager.LoadScene("GameOver");
             }
 
             if(enemyHolder.childCount == 1)
@@ -51,6 +53,7 @@ public class EnemyController : MonoBehaviour
             if(enemyHolder.childCount == 0)
             {
                 //winText.enabled = true; 
+                SceneManager.LoadScene("GameOver");
             }
         }
     }

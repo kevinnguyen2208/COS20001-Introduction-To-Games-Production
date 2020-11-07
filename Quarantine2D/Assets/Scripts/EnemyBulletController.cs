@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBulletController : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class EnemyBulletController : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
             //GameOver.isPLayerDead = true; 
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
