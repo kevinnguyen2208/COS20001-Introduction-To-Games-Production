@@ -50,11 +50,12 @@ public class EnemyController : MonoBehaviour
                 CancelInvoke();
                 InvokeRepeating("MoveEnemy", 0.1f, 0.25f); 
             }
-            if(enemyHolder.childCount == 0)
-            {
-                //winText.enabled = true; 
-                SceneManager.LoadScene("GameOver");
-            }
+        }
+
+        if (enemyHolder.childCount < 1)
+        {
+            //winText.enabled = true
+            SceneManager.LoadScene("WinScene");
         }
     }
 }

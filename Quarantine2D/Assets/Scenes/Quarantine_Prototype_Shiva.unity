@@ -741,7 +741,7 @@ RectTransform:
   m_Children:
   - {fileID: 2131057448}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1794,7 +1794,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &708326659
 GameObject:
@@ -2305,10 +2305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10c0fd3bfed8ce4e85ff23282a73c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 10
   shot: {fileID: 2768929054440300920, guid: e19be7c7db07c904196585e6f9c8ac94, type: 3}
   shotSpawn: {fileID: 980893611}
-  fireRate: 0.3
+  fireRate: 0.1
   collisionSound: {fileID: 8300000, guid: f75e8d8eebb954886ab067706d2f1697, type: 3}
 --- !u!61 &980893610
 BoxCollider2D:
