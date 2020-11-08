@@ -6,7 +6,8 @@ public class BulletController : MonoBehaviour
 {
 
     private Transform bullet;
-    public float speed; 
+    public float speed;
+    public AudioClip bulletShot; 
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class BulletController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        GetComponent<AudioSource>().PlayOneShot(bulletShot); 
         if (collision.tag == "Enemy")
         {
             Destroy(collision.gameObject); //bestroy the enemy 

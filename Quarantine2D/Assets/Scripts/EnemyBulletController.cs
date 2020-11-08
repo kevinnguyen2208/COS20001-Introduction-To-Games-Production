@@ -8,11 +8,12 @@ public class EnemyBulletController : MonoBehaviour
 
     private Transform bullet;
     public float speed;
-
+    public AudioClip bulletShot;
     // Start is called before the first frame update
     void Start()
     {
-        bullet = GetComponent<Transform>(); 
+        bullet = GetComponent<Transform>();
+        GetComponent<AudioSource>().PlayOneShot(bulletShot);
     }
 
     private void FixedUpdate()

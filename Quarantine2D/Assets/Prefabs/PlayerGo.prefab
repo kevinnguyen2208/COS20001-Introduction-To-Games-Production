@@ -113,7 +113,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5587437920627039530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae1c25a229b5fd4c84010274632f6f7, type: 3}
+  m_Script: {fileID: 11500000, guid: c10c0fd3bfed8ce4e85ff23282a73c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
+  shot: {fileID: 2768929054440300920, guid: e19be7c7db07c904196585e6f9c8ac94, type: 3}
+  shotSpawn: {fileID: 5587437920627039529}
+  fireRate: 0.3

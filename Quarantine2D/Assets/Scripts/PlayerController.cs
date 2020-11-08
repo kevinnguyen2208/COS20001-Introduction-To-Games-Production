@@ -7,20 +7,18 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-
-    private Transform player;
     public float speed;
-
     public GameObject shot;
     public Transform shotSpawn;
     public float fireRate;
+    public AudioClip collisionSound; 
 
-    private float nextFire; 
-
+    private Transform player;
+    private float nextFire;
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Transform>(); 
+        player = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -45,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        GetComponent<AudioSource>().PlayOneShot(collisionSound);
         if (collision.tag == "Enemy")
         {
             Destroy(collision.gameObject);
