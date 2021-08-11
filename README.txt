@@ -1,5 +1,3 @@
-TEAM NAME ITGP5
-
 TEAM MEMBER
 Shiva Gupta
 Georgia Nicholas
@@ -14,7 +12,7 @@ INFORMATION ON CONTROLS AND/OR CONTROLLER REQUIREMENTS
 SPACEBAR : shoot
 
 TASKS INDICATED TO EACH MEMBER
-Coding/Scripting: B Uthpala Harshani, Shiva Gupta
+Coding/Scripting: Le Bao Duy Nguyen, B Uthpala Harshani, Shiva Gupta
 Asset/Prefab Management: B Uthpala Harshani
 Modelling/Sound/UI: Georgia Nicholas
 Scenes: Le Bao Duy Nguyen, B Uthpala Harshani
